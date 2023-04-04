@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: com.tcl.emp.repo.AuthorRepositoriesTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 10.043 s <<< FAILURE! - in com.tcl.emp.repo.AuthorRepositoriesTest
+givenFirstNameAndLastName_whenFindByFirstNameAndLastName_thenReturnListOFAuthror  Time elapsed: 0.688 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual:
+  0
+to be greater than:
+  0
+
+	at com.tcl.emp.repo.AuthorRepositoriesTest.givenFirstNameAndLastName_whenFindByFirstNameAndLastName_thenReturnListOFAuthror(AuthorRepositoriesTest.java:45)
+
+givenFirstName_whenFindByFirstName_thenReturnListOFAuthror  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual:
+  0
+to be greater than:
+  0
+
+	at com.tcl.emp.repo.AuthorRepositoriesTest.givenFirstName_whenFindByFirstName_thenReturnListOFAuthror(AuthorRepositoriesTest.java:31)
+
+givenBookTitle_whenFindByBookstitle_thenReturnListOFAuthror  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual:
+  0
+to be greater than:
+  0
+
+	at com.tcl.emp.repo.AuthorRepositoriesTest.givenBookTitle_whenFindByBookstitle_thenReturnListOFAuthror(AuthorRepositoriesTest.java:73)
+
+givenFirstNamename_whenFindByFirstNameContainingIgnoreCase_thenReturnListOFAuthror  Time elapsed: 0.037 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 2
+ but was: 0
+	at com.tcl.emp.repo.AuthorRepositoriesTest.givenFirstNamename_whenFindByFirstNameContainingIgnoreCase_thenReturnListOFAuthror(AuthorRepositoriesTest.java:59)
+

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.tcl.emp.repo.BookRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in com.tcl.emp.repo.BookRepositoryTest
+testfindByTitleContainsOrderByTitleAsc  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual:
+  0
+to be greater than:
+  0
+
+	at com.tcl.emp.repo.BookRepositoryTest.testfindByTitleContainsOrderByTitleAsc(BookRepositoryTest.java:33)
+
